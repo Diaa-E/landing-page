@@ -4,6 +4,7 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -206,4 +207,13 @@ body{
     border: 2px solid #e5e7eb;
     background-color: #3882f6;
     color:#e5e7eb;
+}
+
+.footer{
+    flex: 0 0 auto;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: auto;
 }
