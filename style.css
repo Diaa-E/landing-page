@@ -79,6 +79,14 @@ body{
     padding: 0;
 }
 
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .logo{
     font-size: 24px;
@@ -107,6 +115,7 @@ body{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 40px;
 }
 
 .quote{
@@ -122,4 +131,32 @@ body{
     font-size: 18px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+/*Make a flexible container for info cards*/
+.illustration{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.info img{
+    width: 100px;
+    height: auto;
+}
+
+/*Unify images sizes and anchor the text below*/
+.image-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
