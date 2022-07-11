@@ -1,8 +1,9 @@
 /*Import Roboto light 100 font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
 
-*{
+body{
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .footer, .hero, .header{
@@ -20,6 +21,12 @@
     color: #E5E7EB;
 }
 
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
 .header a{
     text-decoration: none;
     color: inherit;
@@ -30,14 +37,18 @@
 }
 
 .header-links{
+    display: flex;
+    gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .button{
