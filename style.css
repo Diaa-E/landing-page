@@ -1,5 +1,5 @@
 /*Import Roboto light 100 font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 body{
     font-family: "Roboto", sans-serif;
@@ -131,6 +131,8 @@ body{
     font-size: 18px;
     font-weight: bolder;
     color: #1f2937;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 /*Make a flexible container for info cards*/
@@ -159,4 +161,12 @@ body{
     height: 120px;
     border: 2px solid #3882f6;
     border-radius: 10px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
 }
