@@ -4,10 +4,37 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .footer, .hero, .header{
     background-color: #1F2937;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.hero-right{
+    color: #E5E7EB;
+    width: 150px;
+    padding: 10px 200px;
+    flex: 0 0 auto;
+}
+
+.hero-right img{
+    width: inherit;
+    height: auto;
 }
 
 .text-one{
@@ -52,7 +79,15 @@ body{
 }
 
 .button{
-    color: #3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 100px;
+    padding: 7px;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    color:#E5E7EB;
 }
 
 .singup{
