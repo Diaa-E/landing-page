@@ -97,14 +97,16 @@ body{
 .button{
     border-radius: 5px;
     font-weight: bold;
-    max-width: 100px;
-    padding: 7px;
+    width: 100px;
+    flex: 0 1 auto;
+    padding: 5px;
     margin: 20px 0;
 }
 
 .hero-button{
     background-color: #3882f6;
     color:#E5E7EB;
+    border: 2px solid #3882f6;
 }
 
 .singup{
@@ -169,4 +171,39 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px 100px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 200px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color:#F9FaF8;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    height: 100px;
+    width: 800px;
+}
+
+.action-text{
+    font-size: 18px;
+}
+
+.signup-button{
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color:#e5e7eb;
 }
